@@ -1,0 +1,9 @@
+{
+  "title": "<a:loading:1394470250606497813> {title}",
+  "description": "{description}",
+  "color": "0xebdb50",
+  "author": {
+    "name": "{author_name}",
+    "icon_url": "{author_icon_url}"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "title": "❌ {title}",
+  "description": "{description}",
+  "color": "0xe95252",
+  "author": {
+    "name": "{author_name}",
+    "icon_url": "{author_icon_url}"
+  }
+}

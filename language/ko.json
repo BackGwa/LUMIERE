@@ -1,0 +1,45 @@
+{
+  "discord": {
+    "errors": {
+      "general": "오류가 발생했습니다. 나중에 다시 시도해주세요."
+    },
+    "generation": {
+      "title_queue": "대기 중 : {queue_position}명",
+      "title_processing": "생성 중 : {progress}",
+      "title_success": "이미지를 생성했습니다!",
+      "title_failed": "문제가 발생했습니다",
+      "description_failed": "나중에 다시 시도해주세요.",
+      "high_quality_warning": "높은 품질 옵션으로 인해 생성 시간이 오래 걸릴 수 있습니다.",
+      "sensitive_warning_title": "민감한 콘텐츠 경고",
+      "sensitive_warning_description": "이 이미지는 민감한 콘텐츠를 포함하고 있을 수 있습니다. 이미지를 보려면 아래 버튼을 클릭하세요.",
+      "sensitive_warning_button_label": "이미지 표시"
+    },
+    "commands": {
+      "create": {
+        "description": "이미지를 생성합니다.",
+        "prompt_description": "이미지 생성 프롬프트",
+        "ratio_description": "이미지 비율",
+        "quality_description": "이미지 생성 품질",
+        "private_description": "표시 모드",
+        "sensitive_description": "민감한 콘텐츠 설정"
+      }
+    },
+    "options": {
+      "quality": {
+        "fast": "일반",
+        "quality": "높음"
+      },
+      "ratio": {
+        "square": "정사각형 (1:1)",
+        "vertical": "세로 (9:7)",
+        "horizontal": "가로 (7:9)"
+      }
+    },
+    "credit": {
+      "not_enough_title": "{credit_name} 부족",
+      "not_enough_description": "{credit_name}이/가 부족하여 이미지를 생성할 수 없습니다.\n현재 잔여 {credit_name}: {credit_amount}",
+      "check_credit_title": "잔여 {credit_name}",
+      "check_credit_description": "현재 잔여 {credit_name}은/는 {credit_amount}개 입니다."
+    }
+  }
+}

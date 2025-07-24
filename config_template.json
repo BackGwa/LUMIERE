@@ -1,0 +1,57 @@
+{
+  "core-api": {
+    "server": {
+      "host": "0.0.0.0",
+      "port": 8000
+    },
+    "model": {
+      "model_path": "MODEL_NAME/",
+      "vae_file": "VAE_NAME/",
+      "apply_lora": [],
+      "apply_embeddings": []
+    },
+    "generation": {
+      "positive_prompt": "ADDITIONAL_PROITIVE_PROMPT",
+      "negative_prompt": "NEGATIVE_PROMPT",
+      "guidance_scale": 5.0,
+      "quality_steps": {
+        "fast": 20,
+        "quality": 30
+      },
+      "aspect_ratios": {
+        "vertical": [
+          896,
+          1152
+        ],
+        "horizontal": [
+          1152,
+          896
+        ],
+        "square": [
+          1024,
+          1024
+        ]
+      }
+    }
+  },
+  "core": {
+    "language": "ko",
+    "discord": {
+      "token": "YOUR_DISCORD_BOT_TOKEN",
+      "guild_ids": []
+    },
+    "api": {
+      "endpoint": "http://localhost:8000/api"
+    },
+    "translator": {
+      "api_key": "YOUR_TRANSLATOR_GEMINI_API_KEY",
+      "model": "YOUR_TRANSLATOR_GEMINI_MODEL",
+      "system_prompt": "Translate the given text to English. Return only the translation in JSON format with 'translation' field."
+    },
+    "enhancer": {
+      "api_key": "YOUR_ENHANCER_GEMINI_API_KEY",
+      "model": "YOUR_ENHANCER_GEMINI_MODEL",
+      "system_prompt": "Convert the entered prompt to a SDXL prompt."
+    }
+  }
+}

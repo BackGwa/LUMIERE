@@ -1,0 +1,15 @@
+{
+  "title": "{title}",
+  "description": "{description}",
+  "color": "0x60d298",
+  "author": {
+    "name": "{author_name}",
+    "icon_url": "{author_icon_url}"
+  },
+  "image": {
+    "url": "attachment://generated_image.png"
+  },
+  "footer": {
+    "text": "{footer_text}"
+  }
+}
